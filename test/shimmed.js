@@ -18,7 +18,7 @@ test('shimmed', function (t) {
 	});
 
 	t.test('enumerability', { skip: !defineProperties.supportsDescriptors }, function (et) {
-		et.equal(false, isEnumerable.call(Math, 'parseInt'), 'Number.parseInt is not enumerable');
+		et.equal(false, isEnumerable.call(Number, 'parseInt'), 'Number.parseInt is not enumerable');
 		et.end();
 	});
 
