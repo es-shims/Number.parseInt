@@ -2,7 +2,7 @@
 
 var define = require('define-properties');
 
-module.exports = function shimMathParseInt() {
+module.exports = function shimNumberParseInt() {
 	define(
 		Number,
 		{ parseInt: parseInt },
