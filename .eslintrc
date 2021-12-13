@@ -6,13 +6,4 @@
 	"rules": {
 		"id-length": 0
 	},
-
-	"overrides": [
-		{
-			"files": "**/*.mjs",
-			"rules": {
-				"no-restricted-exports": 0,
-			},
-		},
-	],
 }

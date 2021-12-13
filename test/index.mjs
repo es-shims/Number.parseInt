@@ -16,9 +16,9 @@ test('named exports', async (t) => {
 	);
 
 	const { shim, getPolyfill, implementation } = parseIntModule;
-	t.equal(await import('number.parseint/shim'), shim, 'shim named export matches deep export');
-	t.equal(await import('number.parseint/implementation'), implementation, 'implementation named export matches deep export');
-	t.equal(await import('number.parseint/polyfill'), getPolyfill, 'getPolyfill named export matches deep export');
+	t.equal((await import('number.parseint/shim')).default, shim, 'shim named export matches deep export');
+	t.equal((await import('number.parseint/implementation')).default, implementation, 'implementation named export matches deep export');
+	t.equal((await import('number.parseint/polyfill')).default, getPolyfill, 'getPolyfill named export matches deep export');
 
 	t.end();
 });
