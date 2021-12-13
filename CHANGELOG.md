@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/es-shims/Number.parseInt/compare/v1.0.0...v1.0.1) - 2021-12-13
+
+### Commits
+
+- [actions] reuse common workflows [`e686e66`](https://github.com/es-shims/Number.parseInt/commit/e686e665abb05f055848cf97a7778f4672ab10db)
+- [Refactor] remove unnecessary ESM files [`0b8ee78`](https://github.com/es-shims/Number.parseInt/commit/0b8ee78888977023cf21914e14a684b346e4632e)
+- [actions] update codecov uploader [`088292e`](https://github.com/es-shims/Number.parseInt/commit/088292e641d9893a3a5182fc6490bb3845ab7454)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `safe-publish-latest`, `tape` [`7914592`](https://github.com/es-shims/Number.parseInt/commit/7914592254140d5f1f23e7f57defb3f4f6d2be76)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `auto-changelog`, `tape` [`155c201`](https://github.com/es-shims/Number.parseInt/commit/155c2017b537a09fc2f417346ccc7a2a57a259a5)
+- [Fix] callBind to `Number`, not `Math` [`b8561dc`](https://github.com/es-shims/Number.parseInt/commit/b8561dc2b5ec88711941b30d9939396393dc127f)
+- [Tests] use `Number` instead of `Math` [`bdf7f47`](https://github.com/es-shims/Number.parseInt/commit/bdf7f47cfb3312f5b69e15abc5eb7438745bf6ae)
+- [Tests] add `@es-shims/api` [`1c300a7`](https://github.com/es-shims/Number.parseInt/commit/1c300a769b2dba95c1dc8316b9316354c6db1b87)
+- [actions] update workflows [`290b53e`](https://github.com/es-shims/Number.parseInt/commit/290b53e9ff419e83923fba9cb47d6d37a1ce31ea)
+- [actions] update workflows [`7e8d561`](https://github.com/es-shims/Number.parseInt/commit/7e8d56130d435a1d7a4061ddb6b741dec933d1dd)
+
 ## v1.0.0 - 2021-05-17
 
 ### Commits
