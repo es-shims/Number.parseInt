@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.0](https://github.com/es-shims/Number.parseInt/compare/v1.0.1...v1.1.0) - 2022-05-02
+
+### Commits
+
+- [Tests] flesh out tests [`d1d8fc3`](https://github.com/es-shims/Number.parseInt/commit/d1d8fc34ded19ab4034fd4239c863ed3abf718ce)
+- [New] use `parseint` shim; shim `parseInt` when shimming `Number.parseInt` [`ea5bcb9`](https://github.com/es-shims/Number.parseInt/commit/ea5bcb9e5141c8f7cc26ac6e60b1647a153880ca)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `functions-have-names`, `tape` [`40057e9`](https://github.com/es-shims/Number.parseInt/commit/40057e9d15430b4914483c3484afc08426b5d7c7)
+- [Deps] update `define-properties` [`9d8d552`](https://github.com/es-shims/Number.parseInt/commit/9d8d552041a29b035909a59204297b7e13b71b7e)
+
 ## [v1.0.1](https://github.com/es-shims/Number.parseInt/compare/v1.0.0...v1.0.1) - 2021-12-13
 
 ### Commits
