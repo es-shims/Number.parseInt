@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = parseInt;
+module.exports = require('parseint/implementation');

@@ -2,4 +2,13 @@
 	"root": true,
 
 	"extends": "@ljharb",
+
+	"overrides": [
+		{
+			"files": "test/**",
+			"rules": {
+				"max-lines-per-function": "off",
+			},
+		},
+	],
 }
