@@ -61,7 +61,9 @@
 		"aud": "^1.1.5",
 		"auto-changelog": "^2.3.0",
 		"eslint": "^8.4.1",
+		"for-each": "^0.3.3",
 		"functions-have-names": "^1.2.2",
+		"has-symbols": "^1.0.3",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^2.0.0",
 		"tape": "^5.3.2"
