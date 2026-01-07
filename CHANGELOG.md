@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.1](https://github.com/es-shims/Number.parseInt/compare/v1.1.0...v1.1.1) - 2026-01-06
+
+### Commits
+
+- [meta] use `npmignore` to autogenerate an npmignore file [`a045a7b`](https://github.com/es-shims/Number.parseInt/commit/a045a7b98e7e76cd61bac0528ec762f5a1b7e5c5)
+- [patch] remove useless ESM entrypoint [`e77bbe3`](https://github.com/es-shims/Number.parseInt/commit/e77bbe33b3a9156249bd8434f5c3796a7bb1e7e8)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `auto-changelog`, `eslint`, `for-each`, `has-symbols`, `npmignore`, `tape` [`10b2b1f`](https://github.com/es-shims/Number.parseInt/commit/10b2b1fe6f56b30f32e2857e146906e432b8ed86)
+- [actions] update rebase action to use reusable workflow [`a46432c`](https://github.com/es-shims/Number.parseInt/commit/a46432c127a37ba38061cbb9b395ebb9d853026a)
+- [Deps] update `call-bind`, `define-properties`, `parseint` [`be5928d`](https://github.com/es-shims/Number.parseInt/commit/be5928dc093533ff17ca7ed736180de9e807766c)
+- [Dev Deps] update `aud`, `tape` [`9760b1e`](https://github.com/es-shims/Number.parseInt/commit/9760b1ec3665ba6b4866e44c37f316ee2c83e596)
+- [meta] add missing `engines.node` [`e2f4528`](https://github.com/es-shims/Number.parseInt/commit/e2f4528df1f44a26770d54bae545510336a48a42)
+- [Dev Deps] use `npm audit` instead of `aud` [`e6dc3db`](https://github.com/es-shims/Number.parseInt/commit/e6dc3db50ecf8a7e9462e1d14fcfdb671d28107a)
+- [readme] replace runkit CI badge with shields.io check-runs badge [`3a64086`](https://github.com/es-shims/Number.parseInt/commit/3a64086b7f579b12038b0a1c6d0a7b06b5c4f5be)
+
 ## [v1.1.0](https://github.com/es-shims/Number.parseInt/compare/v1.0.1...v1.1.0) - 2022-05-02
 
 ### Commits
